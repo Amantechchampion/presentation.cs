@@ -1,0 +1,40 @@
+body{
+border-color: rgb(3, 84, 56);
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+font-style: italic;
+background-image: url("https://stackoverflow.com/questions/9300450/generated-background-image-with-css-or-canvas"); 
+background-repeat: round;
+opacity: 4;
+}
+h1 {
+    text-align :center;
+    color: rgb(199, 245, 33); 
+    font: size 50px;
+    border: solid 2px rgb(152, 26, 26);
+    border-radius:25px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+     
+}
+h1:hover{
+    color: rgb(195, 244, 146);
+    border-style: dashed;
+
+}
+
+p {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+    opacity: 0.3;
+  }
+
+  a.ex1:hover, a.ex1:active {
+    color: red;
+  }
+  
+  a.ex2:hover, a.ex2:active {
+    font-size: 150%;
+  }
